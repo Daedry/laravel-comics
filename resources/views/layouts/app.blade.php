@@ -7,18 +7,11 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href=" { { asset ( ' css/app.css' ) } } ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     @yield('custom-class')
-    
-    <!-- Styles -->
-    <style>
-        html,
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -26,7 +19,6 @@
     @include('partials.header')
 
     <main>
-        <h2>Here are some links to help you get started:</h2>
 
     </main>
 
