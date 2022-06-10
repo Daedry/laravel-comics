@@ -120,27 +120,6 @@ img {
   width: 100%;
   position: relative;
 }
-.container .content .jumbo {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1/0.21;
-  background-image: url("../resources/img/.png");
-  background-repeat: no-repeat;
-  z-index: 100;
-}
-.container .content .jumbo button {
-  border: none;
-  background-color: #0282f9;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding: 0.5rem 0.75rem;
-  position: absolute;
-  bottom: -1rem;
-  left: 18%;
-  z-index: 2;
-}
 .container .content .wrapper {
   width: 100%;
   margin: 4rem 0;
@@ -200,11 +179,13 @@ img {
 .container .info-buy .cards {
   margin: 0 20%;
   display: flex;
+  justify-content: space-evenly;
   /* /.card */
 }
 .container .info-buy .cards .card {
   display: flex;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
+  align-items: center;
 }
 .container .info-buy .cards .card .card-img {
   text-align: center;
@@ -216,8 +197,38 @@ img {
   margin: 1rem;
 }
 .container .info-buy .cards .card .card-text p {
-  width: 15px;
   font-size: 11px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.jumbo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/0.21;
+  background-image: url("../resources/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
+.jumbo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.jumbo button {
+  border: none;
+  background-color: #0282f9;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  position: absolute;
+  bottom: -1rem;
+  left: 18%;
+  z-index: 2;
 }

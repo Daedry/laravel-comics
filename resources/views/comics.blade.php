@@ -32,12 +32,53 @@
 
     <div class="info-buy">
         <div class="cards">
+
             <div class="card">
                 <div class="card-img">
-                    <img src="{{asset" alt="" />
+                    <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="" />
                 </div>
                 <div class="card-text">
-                    <p></p>
+                    <p>digital comics</p>
+                </div>
+            </div>
+            <!-- /.card -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="" />
+                </div>
+                <div class="card-text">
+                    <p>dc merchandise</p>
+                </div>
+            </div>
+            <!-- /.card -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="" />
+                </div>
+                <div class="card-text">
+                    <p>subscription</p>
+                </div>
+            </div>
+            <!-- /.card -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="" />
+                </div>
+                <div class="card-text">
+                    <p>comic shop locator</p>
+                </div>
+            </div>
+            <!-- /.card -->
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="{{asset('img/buy-dc-power-visa.')}}" alt="" />
+                </div>
+                <div class="card-text">
+                    <p>dc power visa</p>
                 </div>
             </div>
             <!-- /.card -->
