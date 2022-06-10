@@ -165,6 +165,18 @@ img {
   left: 45%;
   z-index: 2;
 }
+.container .content .btn {
+  border: none;
+  background-color: #0282f9;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  padding: 0.5rem 3.33rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 45%;
+}
 .container .content h3 {
   color: #fff;
   margin-left: 20%;

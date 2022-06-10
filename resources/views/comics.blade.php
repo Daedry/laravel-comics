@@ -26,7 +26,8 @@
             </div>
             <!-- /.content-cards -->
         </div>
-        <!-- /.content -->
+        <!-- /.wrapper -->
+        <button class="btn">load more</button>
     </div>
     <!-- /.content -->
 
@@ -82,7 +83,7 @@
                 </div>
             </div>
             <!-- /.card -->
-            
+
         </div>
         <!-- /.cards -->
     </div>
