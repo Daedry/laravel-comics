@@ -193,6 +193,9 @@ img {
 .container .info-buy .cards .card .card-img img {
   height: 40px;
 }
+.container .info-buy .cards .card .visa-img {
+  width: 45px;
+}
 .container .info-buy .cards .card .card-text {
   margin: 1rem;
 }
@@ -206,7 +209,7 @@ img {
   position: relative;
   width: 100%;
   aspect-ratio: 1/0.21;
-  background-image: url("../resources/img/jumbotron.jpg");
+  background-image: url("../img/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 100;
@@ -231,4 +234,95 @@ img {
   bottom: -1rem;
   left: 18%;
   z-index: 2;
+}
+
+/* FOOTER */
+.container {
+  width: 100%;
+  background-color: #ddd;
+  background-image: url("../img/footer-bg.jpg");
+  -o-object-fit: fill;
+     object-fit: fill;
+  position: relative;
+  margin-top: 0rem;
+}
+.container .info-top {
+  display: flex;
+  overflow-y: hidden;
+}
+.container .info-top .infos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  padding-top: 2.5rem;
+  margin-left: 18%;
+  margin-right: 5rem;
+}
+.container .info-top .infos .info {
+  margin-right: 1.75rem;
+}
+.container .info-top .infos .info h5 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0.3rem;
+}
+.container .info-top .infos .info ul {
+  list-style: none;
+}
+.container .info-top .infos .info ul li a {
+  text-decoration: none;
+  color: #959595;
+  font-size: 12px;
+}
+.container .info-top .infos .up {
+  margin-top: -7.5rem;
+}
+.container .info-top .footer-logo .logo {
+  width: 450px;
+  margin-top: -4.6rem;
+}
+.container .info-bot {
+  width: 100%;
+  height: 100px;
+  background-color: #303030;
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.container .info-bot .foot-left {
+  margin-right: 10rem;
+  margin-left: 3rem;
+  padding: 2.5rem;
+}
+.container .info-bot .foot-left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0.75rem;
+  border: 2px solid #0282f9;
+  font-weight: 500;
+}
+.container .info-bot .foot-right .contacts {
+  display: flex;
+  color: #0282f9;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.container .info-bot .foot-right .contacts h3 {
+  padding: 2.25rem 0.5rem 2rem 0;
+}
+.container .info-bot .foot-right .contacts ul {
+  display: flex;
+}
+.container .info-bot .foot-right .contacts ul li {
+  list-style: none;
+  padding: 2.25rem 0.45rem;
+}
+.container .info-bot .foot-right .contacts ul li img {
+  width: 28px;
 }

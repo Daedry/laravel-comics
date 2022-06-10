@@ -74,14 +74,15 @@
             <!-- /.card -->
 
             <div class="card">
-                <div class="card-img">
-                    <img src="{{asset('img/buy-dc-power-visa.')}}" alt="" />
+                <div class="card-img visa-img">
+                    <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="" />
                 </div>
                 <div class="card-text">
                     <p>dc power visa</p>
                 </div>
             </div>
             <!-- /.card -->
+            
         </div>
         <!-- /.cards -->
     </div>
