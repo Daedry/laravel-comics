@@ -4,9 +4,9 @@
             <div class="info-top">
                 <div class="infos">
                     <div class="info">
-                        <!-- <ul v-for="(info, index) in infos" :key="index"> -->
                         <h5>dc comics</h5>
                         <ul>
+                        <li><a href="#">Characters</a></li>
                             <li><a href="#">Comics</a></li>
                             <li><a href="#">Movies</a></li>
                             <li><a href="#">TV</a></li>
@@ -58,6 +58,10 @@
                     </div>
                 </div>
 
+                <!-- <div class="reserved">
+                    <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <span class="txt-primary">noted here</span>. All rights reserved. <br> <span class="txt-primary">Cookies Settings</span></p>
+                </div> -->
+
                 <div class="footer-logo">
                     <div class="logo">
                         <img src="{{asset('img/dc-logo-bg.png')}}" alt="" />
@@ -76,27 +80,27 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="{{asset('/img/footer-facebook.png')" alt="" />
+                                    <img src="{{asset('../img/footer-facebook.png')" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{asset('/img/footer-twitter.png')" alt="" />
+                                    <img src="{{asset('../img/footer-twitter.png')" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{asset('/img/footer-youtube.png')" alt="" />
+                                    <img src="{{asset('../img/footer-youtube.png')" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{asset('/img/footer-pinterest.png')" alt="" />
+                                    <img src="{{asset('../img/footer-pinterest.png')" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{asset('/img/footer-periscope.png')" alt="" />
+                                    <img src="{{asset('../img/footer-periscope.png')" alt="" />
                                 </a>
                             </li>
                         </ul>

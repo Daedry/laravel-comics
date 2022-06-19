@@ -199,17 +199,17 @@ img {
             }
         }
 
-        .btn{
-                border: none;
-                background-color: $primary-color;
-                color: $text-light;
-                font-weight: bolder;
-                font-size: 12.5px;
-                text-transform: uppercase;
-                padding: 0.5rem 3.33rem;
-                position: absolute;
-                bottom: 1rem;
-                left: 45%;
+        .btn {
+            border: none;
+            background-color: $primary-color;
+            color: $text-light;
+            font-weight: bolder;
+            font-size: 12.5px;
+            text-transform: uppercase;
+            padding: 0.5rem 3.33rem;
+            position: absolute;
+            bottom: 1rem;
+            left: 45%;
         }
 
         h3 {
@@ -299,109 +299,129 @@ img {
 
 /* FOOTER */
 
-.container {
-    width: 100%;
-    // height: 400px;
-    background-color: #ddd;
-    background-image: url("../img/footer-bg.jpg");
-    object-fit: fill;
-    position: relative;
-    margin-top: 0rem;
+#site_footer {
+    .container {
+        width: 100%;
+        height: 450px;
+        background-color: #ddd;
+        background-image: url("../img/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        margin-top: 0rem;
+        overflow-y:hidden ;
 
-    .info-top {
-        display: flex;
-        overflow-y: hidden;
-
-        .infos {
+        .info-top {
             display: flex;
-            flex-wrap: wrap;
-            width: 450px;
-            padding-top: 2.5rem;
-            margin-left: 18%;
-            margin-right: 5rem;
+            flex-direction: column;
+            overflow-y: hidden;
+            .infos {
+                display: flex;
+                flex-wrap: wrap;
+                width: 420px;
+                padding-top: 2.5rem;
+                margin-left: 18%;
+                margin-right: 5rem;
 
-            .info {
-                margin-right: 1.75rem;
+                .info {
+                    margin-right: 1.75rem;
+                    // border: 2px solid $primary-color;
+                    height: 222px;
 
-                h5 {
-                    text-transform: uppercase;
-                    color: $text-light;
-                    font-size: 16px;
-                    margin-bottom: 0.3rem;
-                }
+                    h5 {
+                        text-transform: uppercase;
+                        color: $text-light;
+                        font-size: 12px;
+                        margin-bottom: 0.3rem;
+                    }
 
-                ul {
-                    list-style: none;
+                    ul {
+                        list-style: none;
 
-                    li {
-                        a {
-                            text-decoration: none;
-                            color: $text-main;
-                            font-size: 12px;
+                        li {
+                            a {
+                                text-decoration: none;
+                                color: $text-main;
+                                font-size: 10.55px;
+                                line-height: 3px;
+                            }
                         }
                     }
                 }
-            }
-            .up {
-                margin-top: -7.5rem;
-            }
-        }
-
-        .footer-logo {
-            .logo {
-                width: 450px;
-                margin-top: -4.6rem;
-            }
-        }
-    }
-
-    .info-bot {
-        width: 100%;
-        height: 100px;
-        background-color: $bg-footer;
-        z-index: 100;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        justify-content: space-around;
-
-        .foot-left {
-            margin-right: 10rem;
-            margin-left: 3rem;
-            padding: 2.5rem;
-
-            a {
-                text-decoration: none;
-                color: $text-light;
-                font-size: 18px;
-                text-transform: uppercase;
-                padding: 0.75rem;
-                border: 2px solid $primary-color;
-                font-weight: 500;
-            }
-        }
-
-        .foot-right {
-            .contacts {
-                display: flex;
-                color: $primary-color;
-                font-size: 18px;
-                text-transform: uppercase;
-
-                h3 {
-                    padding: 2.25rem 0.5rem 2rem 0;
+                .up {
+                    // margin-top: -4.5rem; ;
+                    height: 50px;
                 }
+            }
 
-                ul {
+            .reserved{
+                width: 300px;
+                font-size: 10.55px;
+                height: 50px;
+                z-index: 20;
+                color: $text-light;
+            }
+
+            .footer-logo {
+                .logo {
+                    position: absolute;
+                    top: 0rem;
+                    right: 17rem;
+                    width: 480px;
+                    margin-top: -3.66rem;
+                }
+            }
+        }
+
+        .info-bot {
+            width: 100%;
+            height: 100px;
+            background-color: $bg-footer;
+            z-index: 100;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-around;
+
+            .foot-left {
+                margin-right: 10rem;
+                margin-left: 3rem;
+                padding: 2.5rem;
+
+                a {
+                    text-decoration: none;
+                    color: $text-light;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    padding: 0.75rem;
+                    border: 2px solid $primary-color;
+                    font-weight: 500;
+                }
+            }
+
+            .foot-right {
+                .contacts {
                     display: flex;
+                    color: $primary-color;
+                    font-size: 18px;
+                    text-transform: uppercase;
 
-                    li {
-                        list-style: none;
-                        padding: 2.25rem 0.45rem;
+                    h3 {
+                        padding: 2.25rem 0.5rem 2rem 0;
+                    }
 
-                        img {
-                            width: 28px;
+                    ul {
+                        display: flex;
+
+                        li {
+                            list-style: none;
+                            padding: 2.25rem 0.45rem;
+
+                            img {
+                                width: 28px;
+                            }
                         }
                     }
                 }
